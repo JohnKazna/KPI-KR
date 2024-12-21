@@ -1,0 +1,22 @@
+.posts-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 30px 0;
+}
+
+.new-task-btn {
+    position: fixed;
+    bottom: 100px;
+}
+
+.new-post-pen {
+    margin-right: 15px;
+}

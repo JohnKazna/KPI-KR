@@ -1,0 +1,15 @@
+.tests-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tests-page .task-card-btns {
+    justify-content: right;
+}
+
+.tests-page .modal {
+    max-height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+}

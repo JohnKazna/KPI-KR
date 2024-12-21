@@ -1,0 +1,98 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+}
+
+.nav-bar a {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.nav-bar a:hover {
+    font-weight: 800;
+}
+
+.active-nav-bar-link {
+    font-weight: 800;
+}
+
+.user-nav {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-capital-letter {
+    color: #9391FA;
+    background-color: #000;
+    border-radius: 200px;
+    padding: 7px 15px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, .25);
+}
+
+.user-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-nav-bar {
+    cursor: auto;
+    position: absolute;
+    z-index: 1000;
+    top: 110%;
+
+    background-color: #9391FA;
+    color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user-nav-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all .3s ease;
+}
+
+.user-nav-btn:hover {
+    color: #d1d1d1;
+}
+
+.auth-btns-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.auth-btns-wrapper a {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.auth-btns-wrapper a:hover {
+    font-weight: 900;
+    border-bottom: 2px solid #000;
+}

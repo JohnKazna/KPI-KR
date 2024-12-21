@@ -1,0 +1,25 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-info-heading {
+    font-size: 64px;
+}
+
+.intro-info-about {
+    font-weight: 400;
+}

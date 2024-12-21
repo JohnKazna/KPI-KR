@@ -1,0 +1,10 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-page .auth-form {
+    width: 60%;
+    align-self: center;
+}

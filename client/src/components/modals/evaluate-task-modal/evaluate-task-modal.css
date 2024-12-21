@@ -1,0 +1,22 @@
+.task-student-info {
+    font-weight: 800;
+}
+
+.form-field-mark {
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.form-field-mark input {
+    width: 100px;
+    text-align: center;
+}
+
+.modal-wrapper .evaluate-task-heading {
+    justify-content: space-between;
+}
+
+.evaluate-task-modal-wrapper .task-descr {
+    font-weight: 500;
+}

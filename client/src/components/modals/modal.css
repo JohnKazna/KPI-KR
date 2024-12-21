@@ -1,0 +1,83 @@
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 1200px;
+
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.close-modal {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.modal-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-heading h1 {
+    font-size: 44px;
+    text-decoration: underline;
+}
+
+.modal-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-form-field input {
+    border: 3px solid #a0a0a0;
+}
+
+.modal-form-field input:focus {
+    border-color: #000;
+}
+
+.modal-form-field textarea {
+    width: 100%;
+    resize: none;
+    height: 500px;
+    border: 3px solid #a0a0a0;
+    border-radius: 20px;
+}
+
+.modal-form-field textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.modal input {
+    width: 100%;
+}
+
+.modal-wrapper .task-descr {
+    font-weight: 800;
+}

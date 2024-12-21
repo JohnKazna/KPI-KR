@@ -1,0 +1,79 @@
+.tasks-list-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.complete-task-heading {
+    justify-content: right;
+}
+
+.tasks-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.tasks-list-table {
+    width: 100%;
+    text-align: center;
+    
+    border-spacing: 20px;
+}
+
+.tasks-list-table .table-heading th {
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.tasks-list-table td {
+    border-radius: 10px;
+}
+
+.table-task .subject {
+    font-weight: 800;
+    color: #FFE6FD;
+    background-color: #000;
+    padding: 15px 0;
+}
+
+.table-task .group, 
+.table-task .task-title, 
+.table-task .score {
+    background-color: #ECE8FF;
+}
+
+.status-green {
+    background-color: #7EFF7B;
+}
+
+.status-red {
+    cursor: pointer;
+    background-color: #FF4A4A;
+    color: #fff;
+}
+
+.tasks-list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+}
+
+.student-total-score {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.total-score-value {
+    background-color: #ECE8FF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 800;
+}
